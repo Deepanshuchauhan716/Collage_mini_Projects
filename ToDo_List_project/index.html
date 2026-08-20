@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: indianred;
+        }
+
+        #container {
+            height: auto;
+            width: 600px;
+            background-color: rgb(230, 217, 217);
+            border-radius: 30px;
+            box-sizing: border-box;
+        }
+
+        .soap {
+            margin-left: 35%;
+            font-weight: bold;
+            font-size: 30px;
+        }
+
+        #user_inp {
+            position: relative;
+            top: 70px;
+            left: 60px;
+            height: 38px;
+            width: 300px;
+            box-sizing: border-box;
+            padding-left: 10px;
+            border-radius: 30px;
+            border: none;
+            background-color: rgb(195, 182, 182);
+            border: 1px solid black;
+        }
+
+        #btn {
+            position: relative;
+            top: 70px;
+            left: 70px;
+            height: 38px;
+            width: 100px;
+            border-radius: 30px;
+            border: none;
+            border: 1px solid black;
+        }
+
+        #btn {
+            transition: transform 1s ease;
+        }
+
+        #btn:active {
+            transform: scale(0.9);
+            border: 2px dotted black;
+        }
+
+        ul {
+            margin-top: 100px;
+            margin-left: 20px;
+            padding: 0 20px;
+        }
+
+        ul li {
+            display: flex;
+            align-items: flex-start;
+            width: 100%;
+            box-sizing: border-box;
+        }
+
+        ul li span {
+            flex: 1;
+            min-width: 0;
+            overflow-wrap: anywhere;
+        }
+
+        .delete {
+            flex-shrink: 0;
+            margin-left: 15px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="container">
+        <span class="soap">TO-DO LIST</span>
+        <input type="text" id="user_inp" placeholder="Add your task">
+        <button id="btn">ADD</button>
+
+        <ul>
+            <!-- <li><input type="checkbox" class="check"><span>Task 1</span> <button class=delete>Delete</button></li>
+            <li><input type="checkbox" class="check"><span>Task 2 </span><button class=delete>Delete</button></li>
+            <li><input type="checkbox" class="check"><span>Task 3 </span><button class=delete>Delete</button></li> -->
+        </ul>
+    </div>
+</body>
+<script src="script.js"></script>
+
+</html>

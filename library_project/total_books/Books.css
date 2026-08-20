@@ -74,7 +74,13 @@ h1{
     text-decoration: none;
     margin: 0 15px;
 }
-
+.logout{
+  height:30px;
+  width:80px;
+  border-radius: 6px;
+  border: none;
+  border: 1px solid black;
+}
 .nav_link::after{
     content: "";
     position: absolute;
