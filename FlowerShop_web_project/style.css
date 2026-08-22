@@ -198,7 +198,7 @@ body {
     width:200px;
     border: none;
     position: relative;
-    left:700px;
+    left:600px;
     bottom: 20px;
     background-color: white;
     background-size: cover;
@@ -218,7 +218,7 @@ body {
     width:200px;
     border: none;
     position: relative;
-    left:1000px;
+    left:900px;
     bottom: 216px;
     background-color: white;
     background-size: cover;
@@ -239,7 +239,7 @@ body {
     width:200px;
     border: none;
     position: relative;
-    left:1050px;
+    left:950px;
     bottom: 216px;
     background-color: white;
     float: left;
@@ -259,7 +259,7 @@ body {
     width:200px;
     border: none;
     position: relative;
-    left:700px;
+    left:600px;
     background-color: white;
     background-image: url(img/four.jpg);
     background-size: cover;
@@ -276,7 +276,7 @@ body {
     width:200px;
     border: none;
     position: relative;
-    left:1000px;
+    left:900px;
     background-color: white;
     bottom: 200px;
     background-image: url(img/five.jpg);
@@ -295,7 +295,7 @@ body {
     width:200px;
     border: none;
     position: relative;
-    left:1253px;
+    left:1150px;
     bottom: 400px;
     background-color: white;
     float: left;
@@ -392,401 +392,4 @@ body {
     bottom: 130px;
     left:550px;
     font-family: sans-serif;
-    font-weight: bold;
-=======
-* {
-    box-sizing: border-box;
-    margin: 0%;
-    padding: 0%;
-}
-
-body {
-    background-image: url(img/flo.jpg);
-    background-size: 100% auto;
-    overflow-x: hidden;
-  
-}
-
-
-#upper {
-    height: 50px;
-    width: 100%;
-    background-color: white;
-    box-shadow: 1px 1px 12px 1px;
-    display: flex;
-    justify-content: space-evenly;
-    padding: 15px;
-}
-
-/* deepanshu flower shop line edit */
-
-#flower {
-    font-family: sans-serif;
-    font-weight: bold;
-    font-size: 24px;
-    margin-top: 3px;
-
-}
-
-#pic {
-    height: 150px;
-    width: 150px;
-    border-radius: 50%;
-    margin-top: 6px;
-}
-
-#sec {
-
-    font-family: "Momo Trust Display", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 50px;
-    position: relative;
-    left: 20%;
-}
-
-#Natural {
-    position: relative;
-    left: 22%;
-    font-size: 17px;
-    font-weight: bold;
-    font-family: sans-serif;
-    color: blueviolet;
-}
-
-
-.first_line {
-    margin-left: 200px;
-}
-
-.se_line {
-    margin-left: 160px;
-}
-
-.third_line {
-    margin-left: 220px;
-}
-
-.edit {
-    text-decoration: none;
-    font-family: Georgia;
-    font-weight: bold;
-    color: blue;
-}
-
-#sec_background {
-    height: 1000px;
-    width: 100%;
-    position: relative;
-    top: 480px;
-    background-color: #FFD1D5;
-    box-shadow: 12px 12px 12px 3px #FFD1D5;
-}
-
-#shoping {
-    position: relative;
-    left: 240px;
-    top: 30px;
-    font-family: "Momo Trust Display", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 30px;
-
-}
-
-.name{
-    position: relative;
-    top:80px;
-    left:100px;
-    height: 30px;
-    width:400px;
-    color: black;
-    padding:6px;
-    letter-spacing: 1px;
-    font-family: sans-serif;
-    border-radius: 20px;
-    border:1px solid black;
-}
-
-.tele{
-     position: relative;
-    top:140px;
-    right:305px;
-    height: 30px;
-    width:400px;
-    color: black;
-    padding:6px;
-    letter-spacing: 1px;
-    font-family: sans-serif;
-    border-radius: 20px;
-    border:1px solid black;
-}
-
-.logo{
-    position: relative;
-    top:200px;
-    right:710px;
-    height: 30px;
-    width:400px;
-    color: black;
-    padding:6px;
-    letter-spacing: 1px;
-    font-family: sans-serif;
-    border-radius: 20px;
-    border:1px solid black;
-}
-
-.sogo{
-    position: relative;
-    top:230px;
-    left:100px;
-    height: 30px;
-    width:400px;
-    color: black;
-    padding:6px;
-    letter-spacing: 1px;
-    font-family: sans-serif;
-    border-radius: 20px;
-    border:1px solid black;
-}
-
-#submit{
-   position: relative;
-   top:298px;   
-   right:300px;
-   height:30px;
-   width:100px;
-   background-color:#83A6CE;
-   border: 1px solid black;
-   box-shadow: 0px 0px 4px 2px rgba(0,0,0,0.6);
-   font-family: sans-serif;
-   font-weight: bold;
-   letter-spacing: 1px;
-}
-
-#submit:focus{
-    border-radius: 20px;
-    transition: 0.4s;
-}
-
-#rese{
-   position: relative;
-   top:298px;   
-   right:140px;
-   height:33px;
-   width:105px;
-   background-color:#83A6CE;
-   border: 1px solid black;
-   box-shadow: 0px 0px 4px 2px rgba(0,0,0,0.6);
-   font-family: sans-serif;
-   font-weight: bold;
-   letter-spacing: 1px;
-}
-
-#rese:focus{
-    border-radius: 20px;
-    transition: 0.4s;
-}
-
-#photo{
-    height: 200px;
-    width:200px;
-    border: none;
-    position: relative;
-    left:700px;
-    bottom: 20px;
-    background-color: white;
-    background-size: cover;
-   background-image: url(img/1.jpg);
-   border-radius: 20px;
-   box-shadow: 0px 0px 14px 3px;
-
-}
-
-#photo:hover{
-    transform: scale(1.1);
-    transition: 0.7s;
-}
-
-#photo_two{
-    height: 200px;
-    width:200px;
-    border: none;
-    position: relative;
-    left:1000px;
-    bottom: 216px;
-    background-color: white;
-    background-size: cover;
-    float: left;
-    background-image: url(img/nine.jpg);
-    background-size: cover;
-    border-radius: 20px;
-     box-shadow: 0px 0px 14px 3px;
-}
-
-#photo_two:hover{
-    transform: scale(1.1);
-    transition: 0.7s;
-}
-
-#pic_three{
-    height: 200px;
-    width:200px;
-    border: none;
-    position: relative;
-    left:1050px;
-    bottom: 216px;
-    background-color: white;
-    float: left;
-    background-image: url(img/three.jpg);
-    background-size: cover;
-    border-radius: 20px;
-     box-shadow: 0px 0px 14px 3px;
-}
-
-#pic_three:hover{
-    transform: scale(1.1);
-    transition: 0.7s;
-}
-
-.pics_for{
-    height: 200px;
-    width:200px;
-    border: none;
-    position: relative;
-    left:700px;
-    background-color: white;
-    background-image: url(img/four.jpg);
-    background-size: cover;
-    border-radius: 20px;
-     box-shadow: 0px 0px 14px 3px;
-}
-.pics_for:hover{
-    transform: scale(1.1);
-    transition: 0.7s;
-}
-
-.pics_five{
-     height: 200px;
-    width:200px;
-    border: none;
-    position: relative;
-    left:1000px;
-    background-color: white;
-    bottom: 200px;
-    background-image: url(img/five.jpg);
-    background-size: cover;
-    border-radius: 20px;
-     box-shadow: 0px 0px 14px 3px;
-}
-
-.pics_five:hover{
-    transform: scale(1.1);
-    transition: 0.7s;
-}
-
-.pics_six{
-    height: 200px;
-    width:200px;
-    border: none;
-    position: relative;
-    left:1253px;
-    bottom: 400px;
-    background-color: white;
-    float: left;
-    background-image: url(img/six.jpg);
-    background-size: cover;
-    border-radius: 20px;
-     box-shadow: 0px 0px 14px 3px;
-}
-
-.pics_six:hover{
-    transform: scale(1.1);
-    transition: 0.7s;
-}
-
-#amount{
-    position: relative;
-    bottom: 660px;
-    left:575px;
-    font-family: "Momo Trust Display", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 20px;
-}
-
-#am_two{
-    position: relative;
-    bottom: 685px;
-    left:880px;
-    font-family: "Momo Trust Display", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 20px;
-}
-
-#am_three{
-    position: relative;
-    bottom: 710px;
-    left:1120px;
-    font-family: "Momo Trust Display", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 20px;
-}
-
-#abc{
-    font-family: "Momo Trust Display", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 50px;
-    position: relative;
-    bottom: 220px;
-    left:450px;
-}
-
-#para{
-    text-align: justify;
-    position: relative;
-    bottom: 200px;
-    right:100px;
-    font-family: sans-serif;
-    line-height: 1.6;
-    padding:0px 10px;
-}
-
-#face{
-    position: relative;
-    bottom: 150px;
-    left:700px;
-}
-
-#link{
-     position: relative;
-    bottom: 150px;
-    left:710px;
-}
-
-#insta{
-    position: relative;
-    bottom: 150px;
-    left:720px;
-}
-
-#last_add{
-    position: relative;
-    bottom: 130px;
-    left:680px;
-    color: crimson;
-    font-weight: bold;
-    font-size: 30px;
-}
-
-#first_dot{
-    position: relative;
-    bottom: 130px;
-    left:550px;
-    font-family: sans-serif;
-    font-weight: bold;
-======= cc6bfa0d456e05ea558fee75dfe39892a7e1f014
-}
+    font-weight: bold;}
