@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: rgb(104, 88, 213);
+            /* margin: 40px; */
+            box-sizing: border-box;
+        }
+
+        #addNewNote {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            font-size: 20px;
+            padding: 0;
+            cursor: pointer;
+        }
+
+        #container {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, 250px);
+            /* justify-content: space-between; */
+            justify-content: center;
+            gap: 30px;
+        }
+
+        .boxes {
+            height: 250px;
+            width: 250px;
+            background-color: white;
+            box-sizing: border-box;
+            padding: 15px;
+            overflow-y: auto;
+            flex-shrink: 0;
+        }
+
+
+        span {
+            display: block;
+            /* margin-top: 15px; */
+            font-weight: 100;
+            font-size: 15px;
+        }
+
+        p {
+            margin-top: 15px;
+            font-weight: 700;
+            font-size: 15px;
+        }
+
+        #editor {
+            font-weight: bold;
+            cursor: pointer;
+            display: flex;
+            margin-left: auto;
+        }
+
+        .bottom {
+            display: flex;
+            align-items: center;
+        }
+
+        .edit_btn {
+            background-color: rgb(169, 221, 169);
+            height: 60px;
+            width: 100px;
+            list-style: none;
+            position: relative;
+            bottom: 70px;
+            left: 100px;
+            font-weight: 200;
+            font-size: 17px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            cursor: pointer;
+            opacity: 0;
+            visibility: hidden;
+        }
+
+        .edit_btn li {
+            margin-bottom: 10px;
+        }
+
+        /* .boxes:has(#editor:hover) .edit_btn {
+            transform: scale(1);
+            transition: 0.5s;
+        } */
+
+        .popup {
+            background-color: rgb(0, 0, 0, 0.15);
+            position: fixed;
+            height: 100%;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            opacity: 0;
+            visibility: hidden;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .form_container {
+            width: clamp(280px, 60vw, 400px);
+
+            background-color: white;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            border-radius: 20px;
+            padding: 30px;
+            box-sizing: border-box;
+        }
+
+        form {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+
+        input,
+        textarea {
+            width: 100%;
+            box-sizing: border-box;
+        }
+
+        input {
+            height: 40px;
+        }
+
+        textarea {
+            width: 100%;
+            height: 200px;
+            box-sizing: border-box;
+            overflow-y: auto;
+            resize: none;
+        }
+
+        button {
+            margin-top: 20px;
+            height: 40px;
+        }
+
+        .cut {
+            position: relative;
+            bottom: 50px;
+            left: 170px;
+            font-size: 20px;
+            cursor: pointer;
+        }
+
+        .note {
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        .popup.show {
+            opacity: 1;
+            visibility: visible;
+            transition: 0.5s;
+        }
+
+        .edit_btn.shows {
+            opacity: 1;
+            visibility: visible;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="popup">
+        <div class="form_container">
+            <p class="note">Add new note</p>
+            <span class="cut">×</span>
+
+            <form action="#" id="noteForm">
+
+                <label>Tittle</label><input type="text" id="tittle_input">
+                <label>Description</label><textarea name="" id="discription_input"></textarea>
+                <button type="submit">Add note</button>
+
+            </form>
+        </div>
+    </div>
+    <div id="container">
+        <div class="boxes" id="addNewNote">Add note +</div>
+        <!-- <div class="boxes">This is a tittle
+            <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam, aliquam blanditiis saepe dolor
+                fugiat mollitia quae ipsa eos eaque vitae commodi quibusdam odio voluptate ipsum earum necessitatibus!
+                Modi, sint rerum?</span>
+            <div class="bottom">
+                <p>september,5,2026</p>
+                <div id="editor">...</div>
+            </div>
+            <div class="edit_btn">
+                <li class="edit_pop">Edit</li>
+                <li class="delete">Delete</li>
+            </div> -->
+    </div>
+
+    </div>
+</body>
+<script src="NotesApp.js"></script>
+
+</html>
