@@ -41,7 +41,7 @@ It goes beyond static HTML/CSS pages and focuses on **JavaScript, API integratio
 ⚡ **Real-Time API Monitoring:** Add the API Break script to your HTML page and monitor your API activity in real time:
 
 ```html
-<script src="https://deepanshuchauhan716.github.io/Collage_mini_Projects/ApiBreakProject/"></script>
+<script src="https://deepanshuchauhan716.github.io/Collage_mini_Projects/ApiBreakProject/landingpage.html"></script>
 ```
 
 Simply add this `<script>` tag to your HTML page to enable API monitoring.
