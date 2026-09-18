@@ -1,0 +1,21 @@
+{
+    "name": "APIBreak",
+    "short_name": "APIBreak",
+    "description": "Zero-config API monitoring for developers",
+    "start_url": "./landingpage.html",
+    "display": "standalone",
+    "background_color": "#0a0a1a",
+    "theme_color": "#4af",
+    "icons": [
+        {
+            "src": "apibreak.jpeg",
+            "sizes": "192x192",
+            "type": "image/jpeg"
+        },
+        {
+            "src": "apibreak.jpeg",
+            "sizes": "512x512",
+            "type": "image/jpeg"
+        }
+    ]
+}
