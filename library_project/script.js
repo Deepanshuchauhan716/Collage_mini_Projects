@@ -60,7 +60,7 @@ form.addEventListener("submit", function(dets) {
     }else if(password !== "1234"){
         ErrorText.style.display = "initial";
     }else{
-        window.location.href = "dashboard section/dashboard.html";
+        window.location.href = "Dashboard_section/dashboard.html";
         form.reset();
     }
 
