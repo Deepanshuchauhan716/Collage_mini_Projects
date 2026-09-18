@@ -38,6 +38,14 @@ It goes beyond static HTML/CSS pages and focuses on **JavaScript, API integratio
 
 🔗 **[Explore API Break](https://deepanshuchauhan716.github.io/Collage_mini_Projects/ApiBreakProject/landingpage.html)**
 
+⚡ **Real-Time API Monitoring:** Add the API Break script to your HTML page and monitor your API activity in real time:
+
+```html
+<script src="https://deepanshuchauhan716.github.io/Collage_mini_Projects/ApiBreakProject/"></script>
+```
+
+Simply add this `<script>` tag to your HTML page to enable API monitoring.
+
 ## 🔑 Library Project Login
 
 The **Library Project** contains a login system.
