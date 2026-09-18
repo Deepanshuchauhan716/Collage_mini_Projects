@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 50%, #f093fb 100%);
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  height: 100vh;
+  padding: 10px 20px;
+}
+
+.auth-child{
+    font-size: 14px;
+    color: rgb(48, 43, 43);
+    font-weight: 550;
+}
+
+.login-form{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    background-color: aquamarine;
+    height:550px;
+    width: 100%;
+    max-width:400px;
+    padding: 15px 10px;
+    background: rgba(255, 255, 255, 0.15); 
+    backdrop-filter: blur(30px);
+    -webkit-backdrop-filter: blur(30px); 
+     border: 1px solid rgba(255, 255, 255, 0.3); 
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2); 
+    border-radius: 30px;
+}
+
+.acc-create{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600px;
+    font-size: 20px;
+}
+
+.form-group{
+    position: relative;
+    top:20px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;       
+    margin-top:10px;          
+}
+
+input{
+    position: relative;
+    bottom: 10px;
+    height:40px;
+    border-radius: 30px;
+    border: none;
+     background: rgba(255, 255, 255, 0.15); 
+    backdrop-filter: blur(30px);
+    -webkit-backdrop-filter: blur(30px); 
+     border: 2px solid rgba(69, 19, 19, 0.3); 
+     padding-left: 15px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+label{
+    position: relative;
+    top:4px;
+    left: 10px;
+}
+
+.create-btn{
+    padding:12px 20px;
+    border-radius: 30px;
+    border: none;
+    background-color:#004bfa;
+    width: 90%;
+    font-weight: 600;
+    color: white;
+    font-size: 15px;
+}
+
+.specific{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.acc{
+    display: flex;
+    align-items: center;
+}
