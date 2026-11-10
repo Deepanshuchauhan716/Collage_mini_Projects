@@ -29,6 +29,8 @@ The projects range from simple UI-based websites to interactive JavaScript appli
 | 7 | ✅ **To-Do List Project**      | HTML, CSS, JavaScript       | Interactive task management application.                            | [View Project](https://deepanshuchauhan716.github.io/Collage_mini_Projects/ToDo_List_project/index.html)           |
 | 8 | 📚 **Library Project**        | HTML, CSS, JavaScript       | Interactive library management project with login functionality.    | [View Project](https://deepanshuchauhan716.github.io/Collage_mini_Projects/library_project/index.html)             |
 | 9 | 🚀 **API Break Project** ⭐    | HTML, CSS, JavaScript, APIs | Advanced web project focused on working with APIs and dynamic data. | [View Project](https://deepanshuchauhan716.github.io/Collage_mini_Projects/ApiBreakProject/landingpage.html)       |
+| 10 | ⏱️ Digital Clock | HTML, CSS, JavaScript | A digital clock that displays the current time using JavaScript.                    |  [View Project](https://deepanshuchauhan716.github.io/Collage_mini_Projects/Digital_Clock/index.html) |
+
 
 ## ⭐ Featured Project — API Break
 
