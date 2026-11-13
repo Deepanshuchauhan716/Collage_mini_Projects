@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About - GitHub Finder</title>
+    <link rel="stylesheet" href="about.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- Navbar (Yeh same rahega) -->
+    <nav class="nav-container">
+        <div class="nav-logo">
+            <i class="fa-brands fa-github" style="margin-right: 10px;"></i> GitHub <span class="find">Finder</span>
+        </div>
+
+        <div class="nav-link">
+            <a href="index.html" class="nav-item" id="nav-home">
+                <i class="fa-solid fa-house" style="margin-right: 10px;"></i>
+                <span>Home</span>
+            </a>
+            <!-- <a href="github.html" class="nav-item" id="nav-github">
+                <i class="fa-brands fa-github" style="margin-right: 10px;"></i>
+                <span>GitHub</span>
+            </a> -->
+            <!-- Yahan active class hai kyunki hum abhi About page par hain -->
+            <a href="about.html" class="nav-item active" id="nav-about">
+                <i class="fa-solid fa-circle-info" style="margin-right: 10px;"></i>
+                <span>About</span>
+            </a>
+        </div>
+    </nav>
+
+    <!-- About Section -->
+    <div id="about-section">
+        <div class="about-container">
+            <div class="about-card">
+                <div class="about-avatar">
+                    <i class="fa-brands fa-github"></i>
+                </div>
+                <h1>GitHub Finder</h1>
+                <p class="about-tagline">Find any GitHub user instantly with a beautiful UI.</p>
+
+                <div class="about-info">
+                    <p><strong>Developer:</strong> Deepanshu Chauhan</p>
+                    <p><strong>Tech Stack:</strong> HTML, CSS, JavaScript, GitHub API</p>
+                    <p><strong>Features:</strong> Real-time user search, Repository list, Responsive Design.</p>
+                </div>
+
+                <div class="about-socials">
+                    <a href="https://github.com/Deepanshuchauhan716" target="_blank" class="social-btn">
+                        <i class="fa-brands fa-github"></i> GitHub
+                    </a>
+                    <a href="https://www.linkedin.com/in/deepanshu-chauhan-871618446" target="_blank" class="social-btn">
+                        <i class="fa-brands fa-linkedin"></i> LinkedIn
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Mobile Toggle (Yeh bhi same rahega) -->
+    <div class="mobile-bottom">
+        <div class="nav-menu" id="mobile-nav">
+            <a href="index.html" class="mob-item"><i class="fa-solid fa-house"></i></a>
+            <!-- <a href="github.html" class="mob-item"><i class="fa-brands fa-github"></i></a> -->
+            <a href="about.html" class="mob-item"><i class="fa-solid fa-circle-info"></i></a>
+        </div>
+        <button class="fab-btn" id="ToggleBtn">
+            <i class="fa-solid fa-plus" id="fabIcon"></i>
+        </button>
+    </div>
+
+    <script>
+        const fabbtn = document.getElementById("ToggleBtn");
+        const navmenu = document.getElementById("mobile-nav");
+
+        fabbtn.addEventListener("click", () => {
+            navmenu.classList.toggle('active');
+            fabbtn.classList.toggle('active');
+        });
+    </script>
+</body>
+
+</html>

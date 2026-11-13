@@ -22,11 +22,11 @@
                     <i class="fa-solid fa-house" style="margin-right: 10px;"></i>
                     <span>Home</span>
                 </a>
-                <a href="#github" class="nav-item" id="nav-github">
+                <!-- <a href="#github" class="nav-item" id="nav-github">
                     <i class="fa-brands fa-github" style="margin-right: 10px;"></i>
                     <span>GitHub</span>
-                </a>
-                <a href="#about" class="nav-item" id="nav-about">
+                </a> -->
+                <a href="about.html" class="nav-item" id="nav-about">
                     <i class="fa-solid fa-circle-info" style="margin-right: 10px;"></i>
                     <span>About</span>
                 </a>
@@ -44,30 +44,35 @@
         <div class="search-container">
             <div class="input-group">
                 <i class="fa-solid fa-magnifying-glass search-icon"></i>
-                <input type="text" class="search-input" placeholder="">
-                <button class="search-btn">
+                <input type="text" class="search-input" placeholder="Enter username" id="first-inp">
+                <button class="search-btn" id="searchbtn">
                     <i class="fa-solid fa-rocket"></i> <span>Search</span>
                 </button>
             </div>
         </div>
 
-        <div class="profile-card">
+        <div class="profile-card" id="result" style="display: none;">
             <div class="profile-head">
                 <div class="avtar-container">
-                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0HlXm6uGZBDJV475_P2yO6hMEXhIzNOpcJXodeCP6rn5jciQfHz0sgX4&s=10"
-                        alt="Profile-pic" class="avtar">
+                    <!-- user ki photo -->
+                    <img src="" alt="Profile-pic" class="avtar" id="user-avatar">
                 </div>
                 <div class="user-info">
                     <div class="name">
-                        <h1>Deepanshu chauhan</h1>
+                        <!-- user ka naam -->
+                        <h1 id="user-name"></h1>
                         <i class="fa-solid fa-circle-check verified-icon"></i>
                     </div>
-                    <p class="username">@deepanshuchauhan716</p>
-                    <p class="bio">💻 Code • Learn • Build • Grow 🚀</p>
+                    <!-- username user ka  -->
+                    <p class="username" id="user-login"></p>
+                    <!-- user ka bio -->
+                    <p class="bio" id="user-bio"></p>
                     <div class="location">
-                        <span><i class="fa-solid fa-location-dot"></i> India</span>
+                        <!-- user ki location -->
+                        <span id="user-location"><i class="fa-solid fa-location-dot"></i> India</span>
                         <span>|</span>
-                        <span class="git-link"><i class="fa-solid fa-link"></i>github.com/Deepanshuchauhan716</span>
+                        <!-- user ki link -->
+                        <span class="git-link" id="user-link"><i class="fa-solid fa-link"></i></span>
                     </div>
                 </div>
                 <div class="action-btn">
@@ -80,29 +85,33 @@
                 <div class="count-div">
                     <i class="fa-solid fa-book repo-icon"></i>
                     <div class="count-text">
-                        <h1>87</h1>
+                        <!-- user reposetries -->
+                        <h1 id="user-repos">0</h1>
                         <p>Repositories</p>
                     </div>
                 </div>
                 <div class="count-div">
                     <i class="fa-solid fa-users follower-icon"></i>
                     <div class="count-text">
-                        <h1>12</h1>
+                        <!-- user follower -->
+                        <h1 id="user-followers">0</h1>
                         <p>Follower</p>
                     </div>
                 </div>
                 <div class="count-div">
                     <i class="fa-solid fa-user-plus following-icon"></i>
                     <div class="count-text">
-                        <h1>2</h1>
+                        <!-- user following -->
+                        <h1 id="user-following">0</h1>
                         <p>Following</p>
                     </div>
                 </div>
                 <div class="count-div">
                     <i class="fa-solid fa-star star-icon"></i>
                     <div class="count-text">
-                        <h1>1.2k</h1>
-                        <p>Star</p>
+                        <!-- user gist  -->
+                        <h1 id="user-gists">0</h1>
+                        <p>Gists</p>
                     </div>
                 </div>
             </div>
@@ -115,37 +124,29 @@
                         <a href="#" class="view-all">View all <i class="fa-solid fa-arrow-right"></i></a>
                     </div>
 
-                    <div class="repo-list">
-                        <div class="repo-first">
+                    <div class="repo-list" id="repo-list-container">
+                        <!-- <div class="repo-first">
                             <div class="repo-icon">
                                 <i class="fa-solid fa-file-code"></i>
                                 <div>
-                                    <h4>learnC-</h4>
+                                    <h4 id="user-repo-name"></h4>
                                 </div>
                             </div>
-                            <div class="repo-star"><i class="fa-solid fa-star"></i> 320</div>
-                        </div>
+                            <div class="repo-star"><i class="fa-solid fa-star"></i><span id="user-repo-stars">0</span> </div>
+                        </div> -->
                     </div>
                 </div>
 
                 <!-- end repo -->
                 <div class="about-section">
                     <h3>About</h3>
-                    <p>A passionate developer who loves coding, exploring new technologies and building something
-                        amazing! 💜</p>
-                    <div class="tags">
-                        <span>C++</span>
-                        <span>JavaScript</span>
-                        <span>Web Dev</span>
-                        <span>DSA</span>
-                        <span>React</span>
-                        <span>Node.js</span>
-                        <span>+ more</span>
-                    </div>
+                    <p id="user-about-bio">No bio Available</p>
+                    <div class="tags" id="user-tags">
+                        <!-- dynamically -->
                 </div>
             </div>
 
-        </div>
+         </div>
         </div>
 
 
@@ -157,10 +158,10 @@
                 <a href="#home" class="mob-item">
                     <i class="fa-solid fa-house"></i>
                 </a>
-                <a href="#github" class="mob-item">
+                <!-- <a href="#github" class="mob-item">
                     <i class="fa-brands fa-github"></i>
-                </a>
-                <a href="#about" class="mob-item">
+                </a> -->
+                <a href="about.html" class="mob-item">
                     <i class="fa-solid fa-circle-info"></i>
                 </a>
             </div>

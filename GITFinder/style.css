@@ -344,16 +344,35 @@ body {
     padding: 10px 20px;
     border-radius: 10px;
     margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
 }
 
 .repo-icon {
     display: flex;
-    gap: 15px;
+    align-items: center;
+    gap: 10px;
+    flex: 1;
+    min-width: 0;
 }
 
 .repo-first {
     display: flex;
     justify-content: space-between;
+    align-items: center; /* Center align */
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid rgba(139, 92, 246, 0.2);
+    padding: 12px 15px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    gap: 10px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.repo-first:last-child {
+    margin-bottom: 0;
 }
 
 .repo-head {
@@ -584,5 +603,24 @@ body {
       .fab-btn.active {
         transform: rotate(135deg);
         background: linear-gradient(135deg, #ef4444, #dc2626);
+    }
+
+    .repo-icon h4 {
+        font-size: 14px;
+        font-weight: 500;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        max-width: 150px;
+        margin: 0;
+    }
+
+    .repo-star {
+        font-size: 13px;
+        color: #eab308;
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        white-space: nowrap; /* Star hamesha ek line me rahe */
     }
 }
