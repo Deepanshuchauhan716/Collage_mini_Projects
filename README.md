@@ -31,7 +31,7 @@ The projects range from simple UI-based websites to interactive JavaScript appli
 | 9 | 🚀 **API Break Project** ⭐    | HTML, CSS, JavaScript, APIs | Advanced web project focused on working with APIs and dynamic data. | [View Project](https://deepanshuchauhan716.github.io/Collage_mini_Projects/ApiBreakProject/landingpage.html)       |
 | 10 | ⏱️ Digital Clock | HTML, CSS, JavaScript | A digital clock that displays the current time using JavaScript.                    |  [View Project](https://deepanshuchauhan716.github.io/Collage_mini_Projects/Digital_Clock/index.html) |
 | 11 | 💖 **Heart Project** | HTML, CSS, JavaScript | Animated mouse move creates a dynamic heart animation.                           | [View Project](https://deepanshuchauhan716.github.io/Collage_mini_Projects/HeartProject/index.html) |
-
+| 12 | 🔍 **GITFinder** | HTML, CSS, JavaScript | A GitHub profile finder that fetches and displays user info and repositories using the GitHub API. | [View Project](https://deepanshuchauhan716.github.io/Collage_mini_Projects/GITFinder/index.html) |
 
 ## ⭐ Featured Project — API Break
 
