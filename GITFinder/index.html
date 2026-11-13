@@ -134,19 +134,51 @@
                     <p>A passionate developer who loves coding, exploring new technologies and building something
                         amazing! 💜</p>
                     <div class="tags">
-                    <span>C++</span>
-                    <span>JavaScript</span>
-                    <span>Web Dev</span>
-                    <span>DSA</span>
-                    <span>React</span>
-                    <span>Node.js</span>
-                    <span>+ more</span>
+                        <span>C++</span>
+                        <span>JavaScript</span>
+                        <span>Web Dev</span>
+                        <span>DSA</span>
+                        <span>React</span>
+                        <span>Node.js</span>
+                        <span>+ more</span>
+                    </div>
                 </div>
             </div>
-        </div>
 
         </div>
         </div>
+
+
+        <!-- toggle -->
+
+
+        <div class="mobile-bottom">
+            <div class="nav-menu" id="mobile-nav">
+                <a href="#home" class="mob-item">
+                    <i class="fa-solid fa-house"></i>
+                </a>
+                <a href="#github" class="mob-item">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+                <a href="#about" class="mob-item">
+                    <i class="fa-solid fa-circle-info"></i>
+                </a>
+            </div>
+            <button class="fab-btn" id="ToggleBtn">
+                <i class="fa-solid fa-plus" id="fabIcon"></i>
+            </button>
+        </div>
+        <script src="script.js"></script>
+
+        <script>
+            const fabbtn = document.getElementById("ToggleBtn");
+            const navmenu = document.getElementById("mobile-nav");
+
+           fabbtn.addEventListener("click",() => {
+            navmenu.classList.toggle('active')
+            fabbtn.classList.toggle('active')
+           })
+        </script>
     </body>
 
 </html>
